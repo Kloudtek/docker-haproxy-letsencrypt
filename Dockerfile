@@ -7,6 +7,7 @@ EXPOSE 80 443
 
 # The port listening in `www` container
 ENV PORT=80 \
+    ADDRESS=www \
     MODE=NORMAL \
     # Odoo mode special variables
     ODOO_LONGPOLLING_PORT=8072 \
